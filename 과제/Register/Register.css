@@ -1,0 +1,131 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+a {
+    text-decoration: none;
+    color: #2b3d43e0;
+}
+h2 {
+    color: #233136;
+    font-size: 1.5em;
+}
+.wrap {
+    width: 100%;
+    height: 2000px;
+    display: flex;
+    align-items: center;
+    background: #233136;
+    flex-direction: column;
+}
+
+.register {
+    width: 60%;
+    height: 80%;
+    background: #DADDDE;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+/*id,pw*/
+input {
+    border: 0;
+    outline: none;
+    font-size: 10px;
+}
+input::placeholder {
+    color: #9EAAAF;
+}
+.dust-class {
+    width: 60%; 
+    box-sizing: border-box;
+    margin: 20px auto;
+    position: relative;
+}
+.dust-class label {
+    display: inline-block;
+    position: absolute;
+    top: -5px;
+    left: 14px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #233136;
+    font-weight: bold;
+}
+.dust-class.ver2 label {
+    top: initial;
+    bottom: -20px;
+}
+.dust-class label span {
+    color: #da4841;
+    vertical-align: -1px;
+}
+.dust-class input {
+    width: 100%;
+    border: 1px solid #DADDDE !important;
+    font-size: 1rem;
+    line-height: 1.45;
+    letter-spacing: -0.04rem;
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 12px;
+}
+
+.submit {
+    margin-top: 50px;
+    width: 50%;
+}
+.submit input {
+    width: 100%;
+    height: 50px;
+    border: 0;
+    outline: none;
+    border-radius: 40px;
+    background: linear-gradient(to left, #2b3d43b4, #233136 );
+    color: #DADDDE;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+
+.end_wrap{
+    padding:20px 0 35px;
+}
+.end_wrap li{
+    position:relative;
+    display:inline-block;
+}
+.end_wrap li+li{
+    padding-left:28px;
+}
+.end_wrap li+li::before{
+    content:'';
+    position:absolute;
+    top:3px;
+    left:12px;
+    width:1px;
+    height:12px;
+    border-radius:.5px;
+    background-color:#233136;
+}
+.end_wrap .en_end_text, .end_wrap .end_text, .en_end_text, .end_text{
+    display:inline-block;
+    font-size:14px;
+    line-height:17px;
+    text-decoration:none;
+    color:#233136;
+}
+/*footer*/
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: #FDFDFD;
+    clear: both;
+    text-align: center;
+}
