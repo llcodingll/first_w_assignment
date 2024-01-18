@@ -1,2 +1,2 @@
-# website1
-HTML5/CSS3 static web site
+# First Website Assignment
+Static Website using HTML/CSS
